@@ -27,11 +27,11 @@ public class QuestionController {
     @RequestMapping(value = "/difficulty/{level}", method = RequestMethod.GET)
     public String getByLevels(@PathVariable int level){
         if (level == 1){
-            return jsonToString("src/main/resources/JSONs/Easy.JSON");
+            return jsonToString("src/main/resources/JSONs/EASY.json");
         }else if ( level == 2){
-            return jsonToString("src/main/resources/JSONs/Medium.JSON");
+            return jsonToString("src/main/resources/JSONs/MEDIUM.json");
         }else if (level == 3){
-            return jsonToString("src/main/resources/JSONs/Hard.JSON");
+            return jsonToString("src/main/resources/JSONs/HARD.json");
         }else{
             return "{\"Error\":\"Level Not Defined\"}";
         }

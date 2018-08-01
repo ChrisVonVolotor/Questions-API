@@ -1,0 +1,212 @@
+[{
+        "id": 1,
+        "levelDifficulty": 1,
+        "levelPosition": 1,
+        "levelNumber": "1A",
+        "levelName": "Hello World!",
+        "lesson": "we can not change an int to a String. this will return an error.",
+        "levelDescription": "basic int ",
+        "levelCode": {
+            "question": [
+                "int myAge = 10; myInt = \"ten\";<br>does this return an error? if not what is the value of myAge?<br><span>",
+                "", //this is the last line ensuring there is a div at the end of the previous line.
+            ]
+        },
+        "timer": 600,
+        "chances": 5,
+        "solution": [{
+            "answerPosition": "placeD",
+            "answerCodeSnippet": "10",
+            "id": 5
+        }, {
+            "answerPosition": "placeD",
+            "answerCodeSnippet": "ten",
+            "id": 6
+        }, {
+            "answerPosition": "place1",
+            "answerCodeSnippet": "error",
+            "id": 7
+        }, {
+            "answerPosition": "placeD",
+            "answerCodeSnippet": "11",
+            "id": 8
+        }, {
+            "answerPosition": "placeD",
+            "answerCodeSnippet": "eleven",
+            "id": 9
+        }]
+},
+{
+        "id": 1,
+        "levelDifficulty": 1,
+        "levelPosition": 1,
+        "levelNumber": "1B",
+        "levelName": "Hello World!",
+        "lesson": "we can have tasks called methods, they can take in data and return a result. isEven() will take an int inside the brackets and return true or false.",
+        "levelDescription": "basic int ",
+        "levelCode": {
+            "question": [
+                " int myAge = 10;<br>isEven(myAge);<br>Will this return true or false?<br><span>",
+                "", //this is the last line ensuring there is a div at the end of the previous line.
+            ]
+        },
+        "timer": 600,
+        "chances": 5,
+        "solution": [{
+            "answerPosition": "place1",
+            "answerCodeSnippet": "true",
+            "id": 5
+        }, {
+            "answerPosition": "placeD",
+            "answerCodeSnippet": "false",
+            "id": 6
+        }, {
+            "answerPosition": "placeD",
+            "answerCodeSnippet": "yes",
+            "id": 7
+        }, {
+            "answerPosition": "placeD",
+            "answerCodeSnippet": "no",
+            "id": 8
+        }, {
+            "answerPosition": "placeD",
+            "answerCodeSnippet": "10",
+            "id": 8
+        }]
+},
+{
+        "id": 1,
+        "levelDifficulty": 1,
+        "levelPosition": 1,
+        "levelNumber": "2A",
+        "levelName": "Hello World!",
+        "lesson": "with number it can be tricky to get what we want.<br> if we divide an int (whole number) the results will be a whole number. rounded down<br>This can cause some problems.",
+        "levelDescription": "basic int ",
+        "levelCode": {
+            "question": [
+                "int myInt = 7; int value = myInt / 2;<br>What will the number in value be?<br><span>",
+                "", //this is the last line ensuring there is a div at the end of the previous line.
+            ]
+        },
+        "timer": 600,
+        "chances": 5,
+        "solution": [{
+            "answerPosition": "placeD",
+            "answerCodeSnippet": "7",
+            "id": 5
+        }, {
+            "answerPosition": "placeD",
+            "answerCodeSnippet": "2",
+            "id": 6
+        }, {
+            "answerPosition": "placeD",
+            "answerCodeSnippet": "3.5",
+            "id": 7
+        }, {
+            "answerPosition": "place1",
+            "answerCodeSnippet": "3",
+            "id": 8
+        }, {
+            "answerPosition": "placeD",
+            "answerCodeSnippet": "4",
+            "id": 8
+        }, {
+            "answerPosition": "placeD",
+            "answerCodeSnippet": "4.5",
+            "id": 8
+        }]
+},
+{
+        "id": 1,
+        "levelDifficulty": 1,
+        "levelPosition": 1,
+        "levelNumber": "2B",
+        "levelName": "Hello World!",
+        "lesson": "to get around this we use a new data type called a \"double\".<br>This allows decimal places.",
+        "levelDescription": "basic int ",
+        "levelCode": {
+            "question": [
+                " double myDouble = 7; value = myDouble / 2;<br>What will the number in value be?<br><span>",
+                "", //this is the last line ensuring there is a div at the end of the previous line.
+            ]
+        },
+        "timer": 600,
+        "chances": 5,
+        "solution": [{
+            "answerPosition": "placeD",
+            "answerCodeSnippet": "7",
+            "id": 5
+        }, {
+            "answerPosition": "placeD",
+            "answerCodeSnippet": "2!",
+            "id": 6
+        }, {
+            "answerPosition": "place1",
+            "answerCodeSnippet": "3.5",
+            "id": 7
+        }, {
+            "answerPosition": "placeD",
+            "answerCodeSnippet": "3!",
+            "id": 8
+        }, {
+            "answerPosition": "placeD",
+            "answerCodeSnippet": "4",
+            "id": 8
+        }, {
+            "answerPosition": "placeD",
+            "answerCodeSnippet": "4.5",
+            "id": 8
+        }]
+},
+{
+        "id": 1,
+        "levelDifficulty": 1,
+        "levelPosition": 1,
+        "levelNumber": "3",
+        "levelName": "Hello World!",
+        "lesson": "another date type that is widely used is the \"boolean\"<br>This is a fancy word for true or false.<br> we can use this to set up methods to work with conditions.",
+        "levelDescription": "basic int ",
+        "levelCode": {
+            "question": [
+                " myInt = 10; myBoolean = false;<br>if(myBoolean == true){myInt =6;}<br>if(myBoolean == false){myInt =8;}<br>What is the value of myInt?<br><span>",
+                "", //this is the last line ensuring there is a div at the end of the previous line.
+            ]
+        },
+        "timer": 600,
+        "chances": 5,
+        "solution": [{
+            "answerPosition": "placeD",
+            "answerCodeSnippet": "10",
+            "id": 5
+        }, {
+            "answerPosition": "placeD",
+            "answerCodeSnippet": "9",
+            "id": 6
+        }, {
+            "answerPosition": "place1",
+            "answerCodeSnippet": "8",
+            "id": 7
+        }, {
+            "answerPosition": "placeD",
+            "answerCodeSnippet": "7",
+            "id": 8
+        }, {
+            "answerPosition": "placeD",
+            "answerCodeSnippet": "6",
+            "id": 8
+        }, {
+            "answerPosition": "placeD",
+            "answerCodeSnippet": "5",
+            "id": 9
+        }, {
+            "answerPosition": "placeD",
+            "answerCodeSnippet": "true",
+            "id": 10
+        }, {
+            "answerPosition": "placeD",
+            "answerCodeSnippet": "false",
+            "id": 10
+        }]
+}
+
+]

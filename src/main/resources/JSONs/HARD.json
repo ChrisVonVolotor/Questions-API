@@ -1,0 +1,139 @@
+[{
+        "id": 1,
+        "levelDifficulty": 1,
+        "levelPosition": 1,
+        "levelNumber": "1A",
+        "levelName": "Hello World!",
+        "lesson": "in the previous question we used an if statement.<br> this checks for a condition that we say to look for.<br>We can use this for many simple tasks.",
+        "levelDescription": "basic int ",
+        "levelCode": {
+            "question": [
+                "int myInt = 10;<br>String myString =\"nine\";<br>if(myInt / 2 = 5){myString = \"ten\";}<br>What is the word in myString?<br><span>",
+                "", //this is the last line ensuring there is a div at the end of the previous line.
+            ]
+        },
+        "timer": 600,
+        "chances": 5,
+        "solution": [{
+            "answerPosition": "place1",
+            "answerCodeSnippet": "ten",
+            "id": 5
+        }, {
+            "answerPosition": "placeD",
+            "answerCodeSnippet": "nine",
+            "id": 6
+        }, {
+            "answerPosition": "placeD",
+            "answerCodeSnippet": "nothing",
+            "id": 7
+        }, {
+            "answerPosition": "placeD",
+            "answerCodeSnippet": "10",
+            "id": 8
+        }, {
+            "answerPosition": "placeD",
+            "answerCodeSnippet": "9",
+            "id": 9
+        }, {
+            "answerPosition": "placeD",
+            "answerCodeSnippet": "5",
+            "id": 10
+        }]
+},
+{
+        "id": 1,
+        "levelDifficulty": 1,
+        "levelPosition": 1,
+        "levelNumber": "1B",
+        "levelName": "Hello World!",
+        "lesson": "the data types int and double can be used together but has some problems.<br>If we go from double to int then we lose the decimal places.",
+        "levelDescription": "basic int ",
+        "levelCode": {
+            "question": [
+                " double myDouble = 8.43;<br>int myInt = myDouble;<br>value = myDouble-myInt<br>What is the number in value?<br><span>",
+                "", //this is the last line ensuring there is a div at the end of the previous line.
+            ]
+        },
+        "timer": 600,
+        "chances": 5,
+        "solution": [{
+            "answerPosition": "placeD",
+            "answerCodeSnippet": "8.43",
+            "id": 5
+        }, {
+            "answerPosition": "placeD",
+            "answerCodeSnippet": "0",
+            "id": 6
+        }, {
+            "answerPosition": "placeD",
+            "answerCodeSnippet": "8",
+            "id": 7
+        }, {
+            "answerPosition": "place1",
+            "answerCodeSnippet": "0.43",
+            "id": 8
+        }, {
+            "answerPosition": "placeD",
+            "answerCodeSnippet": "0.8",
+            "id": 8
+        }, {
+            "answerPosition": "placeD",
+            "answerCodeSnippet": "43.8",
+            "id": 8
+        }, {
+            "answerPosition": "placeD",
+            "answerCodeSnippet": "43",
+            "id": 8
+        }]
+},
+{
+        "id": 1,
+        "levelDifficulty": 1,
+        "levelPosition": 1,
+        "levelNumber": "2A",
+        "levelName": "Hello World!",
+        "lesson": "in java sums are done in this order: brackets, power, divide, times, add, minus.<br>so 10 / 5 + 2 will result in 4.",
+        "levelDescription": "basic int ",
+        "levelCode": {
+            "question": [
+                "with this in mind. myInt = 3+3*3-3/3;<br>What number is in myInt?<br><span>",
+                "", //this is the last line ensuring there is a div at the end of the previous line.
+            ]
+        },
+        "timer": 600,
+        "chances": 5,
+        "solution": [{
+            "answerPosition": "placeD",
+            "answerCodeSnippet": "5",
+            "id": 5
+        }, {
+            "answerPosition": "place1",
+            "answerCodeSnippet": "11",
+            "id": 6
+        }, {
+            "answerPosition": "placeD",
+            "answerCodeSnippet": "12",
+            "id": 7
+        }, {
+            "answerPosition": "placeD",
+            "answerCodeSnippet": "0",
+            "id": 8
+        }, {
+            "answerPosition": "placeD",
+            "answerCodeSnippet": "3",
+            "id": 8
+        }, {
+            "answerPosition": "placeD",
+            "answerCodeSnippet": "-6",
+            "id": 8
+        }, {
+            "answerPosition": "placeD",
+            "answerCodeSnippet": "-7",
+            "id": 8
+        }, {
+            "answerPosition": "placeD",
+            "answerCodeSnippet": "6",
+            "id": 8
+        }]
+}
+]
